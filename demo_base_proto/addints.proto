@@ -1,0 +1,13 @@
+syntax = "proto2";
+
+package apollo.cyber.demo_base_proto;
+
+message AddInts_Request{
+    required int32 num1 = 1;
+    required int32 num2 = 2;
+}
+
+message AddInts_Responce {
+    required int32 sum = 1;
+    required int32 multi = 2;
+}
